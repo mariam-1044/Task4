@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/back6.jpg);
+    background-size: cover;
+    position: relative;
+}
+div{
+    width: 220px;
+    height: 160px;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    background-size: cover;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    animation-name: div1;
+    left: 0;
+    border-radius: 50%;
+} 
+
+@keyframes div1 {
+    25%{
+        background-image: url(../images/hamburger.jpeg);
+    }
+    50%{
+        left: 600px;
+        background-image: url(../images/pizza1.jpeg);
+        background-size: contain;
+    }
+    100%{
+        left: 1120px;
+        background-image: url(../images/pizza2.jpeg);
+    }
+} 
+
+.div2{
+    animation-name: div2;
+    animation-delay: 3s;
+    top: 200px;
+    right: 0;  
+    background-image: url(../images/jucie0.webp);
+    background-size: contain;
+}
+
+@keyframes div2 {
+     25%{
+        background-image: url(../images/juse1.jpg);
+    } 
+    50%{
+        background-image: url(../images/jucie4.webp);
+        right: 600px;
+    }
+    100%{
+        background-image: url(../images/jucie2.webp);
+        right: 1120px;
+    }   
+}  
+
+
+.div3{
+    animation-name: div3;
+    animation-delay: 6s;
+    top: 350px;
+    left: 0;
+    background-image: url(../images/coffee0.jpg);
+    background-size: contain;
+}
+@keyframes div3{
+    25%{
+        background-image: url(../images/coffee1.webp);
+    }
+    50%{
+        background-image: url(../images/coffee2.webp);
+        left: 600px;
+    } 
+    100%{
+        background-image: url(../images/coffee3.webp);
+        left: 1120px;
+    }  
+}
+
+.div4{
+    animation-name: div4;
+    animation-delay: 9s;
+    top: 500px;
+    right: 0;
+    background-image: url(../images/desert0.jpg);
+}
+@keyframes div4{
+    25%{
+        background-image: url(../images/desert1.webp);
+    }
+    50%{
+        background-image: url(../images/desert2.webp);
+        right: 600px;
+    }
+    100%{
+        background-image: url(../images/desert3.jpg);
+        right: 1120px;
+    }  
+}  
+
+.div5{
+    animation-name: div5;
+    animation-delay: 12s;
+    top: 650px;
+    left: 0;
+    background-image: url(../images/ice0.webp);
+    border-radius: 50%;
+}
+@keyframes div5{
+    25%{
+        background-image: url(../images/ice1.webp);
+        background-size: contain;
+    }
+    50%{
+        background-image: url(../images/ice2.webp);
+        left: 600px;
+    }
+    100%{
+        background-image: url(../images/ice3.webp);
+        left: 1120px;
+    }  
+}  
+
+.div6{
+    animation-name: div6;
+    animation-delay: 15s;
+    top: 800px;
+    right: 0;
+    background-image: url(../images/cake0.webp);
+    border-radius: 50%;
+}
+@keyframes div6{
+    25%{
+        background-image: url(../images/capcak1.webp);
+    }
+    50%{
+        background-image: url(../images/cake2.webp);
+        right: 600px;
+    }
+    100%{
+        background-image: url(../images/cake3.jpg);
+        right: 1120px;
+    }  
+}  
